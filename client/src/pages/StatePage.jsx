@@ -1,7 +1,6 @@
 import { stateData } from "../data/state_detailedData"
 import {Link, useParams} from 'react-router-dom'
 import { Landmark, Users, RulerDimensionLine ,LandPlot, SquareText, MoveLeft   } from 'lucide-react';
-import './StatePage.css'
 
 
 export default function StatePage() {

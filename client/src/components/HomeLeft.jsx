@@ -1,4 +1,4 @@
-import {Map, Users, ChartCandlestick, Languages} from 'lucide-react'
+import {Map, Users, ChartCandlestick, Languages, ArrowRight} from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function HomeLeft() {
@@ -32,9 +32,9 @@ export default function HomeLeft() {
                 </div>
 
                 <div className='m-5 my-10 flex items-center gap-8'>
-                    <button className='font-bold bg-purple-500 p-2 w-70 rounded-xl transition-all hover:shadow-md cursor-pointer hover:bg-purple-400 shadow-sm shadow-purple-400'><Link to='/map'>Explore Interactive Map</Link></button>
+                    <button className='font-bold bg-purple-500 p-2 w-70 rounded-xl transition-all hover:shadow-md cursor-pointer hover:bg-purple-400 shadow-sm shadow-purple-400'><Link className='flex gap-4 items-center justify-center' to='/map'>Explore Interactive Map<ArrowRight className='hover:translate-x-2 transition-all duration-200' /></Link></button>
 
-                    <button className='border border-gray-400 rounded-lg p-2 w-40 hover:bg-purple-500 cursor-pointer transition-all hover:border-purple-400'><Link to='/contact'>Contact us</Link></button>
+                    <button className='border border-gray-400 rounded-lg p-2 w-40 hover:bg-purple-500 cursor-pointer transition-all hover:border-purple-400 transition-all duration-200'><Link to='/contact'>Contact us</Link></button>
                 </div>
 
 {/* 4 basic info */}

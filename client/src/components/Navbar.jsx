@@ -15,13 +15,13 @@ export default function Navbar() {
                 </div>
 
                 <div className='flex gap-8'>
-                    <Link className=' hover:text-purple-400'>Home</Link>
-                    <Link className=' hover:text-purple-400'>About</Link>
-                    <Link className=' hover:text-purple-400'>Contact</Link>
+                    <Link to='/' className=' hover:text-purple-400'>Home</Link>
+                    <Link to='/about' className=' hover:text-purple-400'>About</Link>
+                    <Link to='/contact' className=' hover:text-purple-400'>Contact</Link>
                 </div>
 
                 <div className='mr-5 border border-purple-500/60 p-1.5 rounded-xl w-35 flex items-center gap-3 justify-center bg-purple-600/90 cursor-pointer hover:bg-purple-600 transition-all'>
-                    <button className='cursor-pointer'>Explore</button>
+                    <button className='cursor-pointer'><Link to='/map'>Explore</Link></button>
                     <FaArrowRight/>
                 </div>
 
