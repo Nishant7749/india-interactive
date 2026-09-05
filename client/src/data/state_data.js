@@ -166,7 +166,7 @@ export const stateData = {
         region: "Northeast India"
     },
 
-    "Odisha": {
+    "Orissa": {
         type: "State",
         capital: "Bhubaneswar",
         area: 155707,
