@@ -1,11 +1,13 @@
 import Navbar from "../components/Navbar"
 import {Mail, MapPin, Clock, Heart} from 'lucide-react'
+import ChatBot from "../components/ChatBot"
 
 export default function Contact() {
 
     return (
         <>
         <Navbar/>
+        <ChatBot/>
         
         <div>
             <div className="flex flex-col items-center justify-center">

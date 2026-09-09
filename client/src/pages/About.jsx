@@ -1,11 +1,13 @@
 import Navbar from "../components/Navbar"
 import { Info, Map, ChartColumnBig, Wallpaper, ShieldCheck, BookOpen, Heart, Dot, CircleCheck } from 'lucide-react'
+import ChatBot from "../components/ChatBot"
 
 export default function About() {
 
     return (
         <>
         <Navbar/>
+        <ChatBot />
 
         <div className="font-space m-8">
             <div className="flex flex-col items-center justify-center">
